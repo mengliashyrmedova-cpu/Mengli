@@ -14,7 +14,8 @@ class RestaurantController extends Controller
     }
     public function restaurantShow($id)
     {
+        $pag = Restourant::paginate(8);
         $restourant = Restourant::with('foods.category')->findOrFail($id);
-        return view("restaurants.show", compact('restourant'));
+        return view("restaurants.show", compact('restourant','pag'));
     }
 }

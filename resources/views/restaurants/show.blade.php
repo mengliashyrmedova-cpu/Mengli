@@ -39,5 +39,13 @@
         </div>
         @endforelse
     </div>
+    <div class="my-5" data-bs-theme="dark">
+        <div class="d-none d-md-block">
+            {{ $pag->links('pagination::bootstrap-5') }}
+        </div>
+        <div class="d-block d-md-none">
+            {{ $pag->links('pagination::simple-bootstrap-5') }}
+        </div>
+    </div>
 </div>
 @endsection
