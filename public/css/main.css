@@ -348,12 +348,3 @@ body {
     background-color: #ffca2c;
     border-color: #ffc720;
 }
-.pagination nav > div:first-child {
-    display: none !important;
-}
-
-.pagination nav > div:last-child {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
