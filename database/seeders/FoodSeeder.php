@@ -130,6 +130,24 @@ class FoodSeeder extends Seeder
                 'like_count' => 2157,
                 'type' => 'drink',
             ],
+            [
+                'category_id' => 3,
+                'restaurant_id' => 3,
+                'name' => 'Pizza',
+                'price' => 15.00,
+                'code' => '13ij7p92',
+                'like_count' => 2157,
+                'type' => 'meal',
+            ],
+            [
+                'category_id' => 7,
+                'restaurant_id' => 4,
+                'name' => 'Dolama',
+                'price' => 15.00,
+                'code' => '13i0kp92',
+                'like_count' => 2157,
+                'type' => 'meal',
+            ],
         ];
 
         foreach ($foods as $i) {
