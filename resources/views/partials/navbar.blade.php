@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg sticky-top glass-nav bg-dark shadow-lg">
     <div class="container">
         <a class="navbar-brand" href="/" style="font-size: 32px; font-weight: 800; color: #fff; letter-spacing: -1px;">
-            Has <span class="text-warning">Tagam</span>
+            Lezzetli <span class="text-warning">Tagam</span>
         </a>
 
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">

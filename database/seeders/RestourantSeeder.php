@@ -121,30 +121,6 @@ class RestourantSeeder extends Seeder
                 'rating' => 4.4,
                 'phone_num' => '+99324543264',
             ],
-            // [
-            //     'name' => 'Naomi Sushi',
-            //     'address' => 'Ashgabat',
-            //     'rating' => 4.1,
-            //     'phone_num' => '+99324544264',
-            // ],
-            // [
-            //     'name' => 'Chorekchi',
-            //     'address' => 'Ashgabat',
-            //     'rating' => 4.3,
-            //     'phone_num' => '+99327544264',
-            // ],
-            // [
-            //     'name' => 'Melhem koz doner',
-            //     'address' => 'Ashgabat',
-            //     'rating' => 4.3,
-            //     'phone_num' => '+99327544264',
-            // ],
-            // [
-            //     'name' => 'Pizza 88',
-            //     'address' => 'Ashgabat',
-            //     'rating' => 4.3,
-            //     'phone_num' => '+99327544264',
-            // ],
         ];
 
         foreach ($restaurants as $rs) {
